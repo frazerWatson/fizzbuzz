@@ -1,3 +1,5 @@
+# Paired with Reiss Johnson
+
 require 'fizzbuzz'
 
 describe 'fizzbuzz' do
@@ -7,7 +9,13 @@ describe 'fizzbuzz' do
 end
 
 describe 'fizzbuzz' do
-	it 'returns "buzz" when passed 5' do
+	it 'returns "fizz" when passed 5' do
 		expect(fizzbuzz(5)).to eq 'buzz'
+	end
+end
+
+describe 'fizzbuzz' do
+	it 'returns "fizz" when passed 30' do
+		expect(fizzbuzz(30)).to eq 'fizzbuzz'
 	end
 end
